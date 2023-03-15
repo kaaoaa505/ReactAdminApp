@@ -1,6 +1,6 @@
 import './Wrapper.css';
-import Nav from "./components/Nav";
-import SidebarMenu from "./components/SidebarMenu";
+import Nav from "../components/Nav/Nav";
+import SidebarMenu from "../components/SidebarMenu/SidebarMenu";
 
 const Wrapper = (props: any) => (
     <div className="WrapperComponent">

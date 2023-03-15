@@ -1,16 +1,14 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
-import Dashboard from '../secure/Dashboard';
-import Users from '../secure/Users';
-import Nav from '../secure/components/Nav';
-import SidebarMenu from '../secure/components/SidebarMenu';
-import {
+import Dashboard from '../secure/Dashboard/Dashboard';
+import Users from '../secure/Users/Users';
+ import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Login from '../public/Login';
+import Login from '../public/Login/Login';
 
 function App() {
   return (
